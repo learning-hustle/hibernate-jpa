@@ -1,10 +1,10 @@
-package rt.blackparrot.hibernate;
+package com.blackrabbit;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class HustleForHibernateAndJpaApplicationTests {
+class HibernateHustleApplicationTests {
 
 	@Test
 	void contextLoads() {
