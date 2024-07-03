@@ -1,7 +1,11 @@
 package com.blackrabbit.services;
 
+import com.blackrabbit.entities.PincodeDetail;
+
 public interface PincodeService {
 
-	public String getPincode(Long pincodeId);
+	public PincodeDetail getPincode(Long pincodeId);
+	
+	public boolean savePincode(PincodeDetail aPincodeDetail);
 	
 }
